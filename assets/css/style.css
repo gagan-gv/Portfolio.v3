@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('../images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.loader_bg {
+    top: 0px;
+    position: fixed;
+    z-index: 99999;
+    background-image: url('../images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.loader {
+    border: 0 solid transparent;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: calc(50vh - 75px);
+    left: calc(50vw - 75px);
+}
+
+.loader::before,
+.loader::after {
+    content: '';
+    border: 0.75em solid #f0f0f0;
+    border-radius: 50%;
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: loader 1s linear infinite;
+    opacity: 0;
+}
+
+.loader::before {
+    animation-delay: .5s;
+}
+
+@keyframes loader {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 0;
+    }
+}
+
+
+/* Adjusting the width*/
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    background: #f0f0f0;
+}
+
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: #615f9f;
+}
+
+.box {
+    width: 1100px;
+    height: auto;
+    position: relative;
+    margin: 1% auto;
+    background: whitesmoke;
+    padding: 10px;
+    border-radius: 25px;
+    box-shadow: 25% rgba(50, 50, 50, 0.4);
+    overflow: hidden;
+}
+
+#nav {
+    text-align: center;
+    margin-top: 2%;
+    font-size: 65px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#nav>a:active,
+#nav>a:hover,
+#nav>a:visited,
+#nav>a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.w:hover,
+.x:hover,
+.y:hover,
+.z:hover {
+    box-shadow: 10 10 10 10 rgba(50, 50, 50, 0.4);
+}
+
+#collapse {
+    visibility: hidden;
+    display: none;
+}
+
+#me {
+    width: 300px;
+}
+
+#heads,
+#paras {
+    text-align: center;
+    padding: 0;
+    margin: 25px 90px;
+}
+
+#heads {
+    font-size: 36px;
+    margin-top: -45%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#paras {
+    font-size: 24px;
+    color: #343434;
+    font-family: 'Lato', sans-serif;
+}
+
+#img {
+    text-align: right;
+    padding: 0;
+    margin: 0 500px;
+    top: 25px;
+}
+
+#exp {
+    font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-top: 15px;
+}
+
+#align {
+    margin-left: 50px;
+}
+
+#techStack {
+    top: 10px;
+    position: absolute;
+    visibility: collapse;
+}
+
+#skills {
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#domain {
+    align-items: center;
+    margin-left: 17%;
+}
+
+#domain>h2 {
+    margin-left: -17%;
+}
+
+#link,
+#link>a,
+#link>a:active,
+#link>a:hover,
+#link>a:visited {
+    text-align: center;
+    text-decoration: none;
+    color: #615095;
+}
+
+#contact {
+    text-align: center;
+    color: whitesmoke;
+}
+
+#socials>a,
+#cont>a {
+    color: whitesmoke;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+#socials>a {
+    padding: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border: 2px solid whitesmoke;
+    border-radius: 100%;
+}
+
+#socials>a:hover {
+    background-color: whitesmoke;
+}
+
+#li:hover {
+    color: #0072b1;
+}
+
+#gh:hover {
+    color: #343434;
+}
+
+#fb:hover {
+    color: #4267b2;
+}
+
+#ig:hover {
+    color: #fbad50;
+}
+
+#cont>a {
+    padding: 10px;
+}
+
+@media(max-width:800px) {
+    #nav {
+        margin-top: 2%;
+        margin-left: 0px;
+        margin-right: 0;
+        padding: 20px;
+        font-size: 50px;
+        text-align: center;
+    }
+    .box {
+        width: 350px;
+        margin: 0 auto;
+        border-radius: 15px;
+    }
+    #img {
+        text-align: center;
+        padding: 0;
+        margin: 0 0;
+        top: 0;
+        right: 30px;
+    }
+    #heads,
+    #paras {
+        margin: 0 auto;
+    }
+    #align {
+        margin-left: 10px;
+    }
+    #skills {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #socials>a {
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        background-color: whitesmoke;
+        color: #343434;
+    }
+    #li {
+        color: #0072b1;
+    }
+    #gh {
+        color: #343434;
+    }
+    #fb {
+        color: #4267b2;
+    }
+    #ig {
+        color: #fbad50;
+    }
+    #domain,
+    #domain>h2 {
+        margin-left: 0;
+    }
+}
