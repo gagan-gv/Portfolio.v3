@@ -166,12 +166,6 @@ body {
     margin-left: 50px;
 }
 
-#techStack {
-    top: 10px;
-    position: absolute;
-    visibility: collapse;
-}
-
 #skills {
     text-align: center;
     margin-left: 15%;
