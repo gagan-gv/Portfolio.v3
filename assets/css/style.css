@@ -90,6 +90,7 @@ body {
     margin: 1% auto;
     background: whitesmoke;
     padding: 10px;
+    box-shadow: 25% rgba(50,50,50,0.5);
     border-radius: 25px;
     overflow: hidden;
 }
