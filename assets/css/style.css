@@ -282,6 +282,7 @@ body {
     }
     #contact {
         top: 75px;
+        position: relative;
     }
     #socials>a {
         margin-top: 10px;
@@ -319,7 +320,7 @@ body {
     .box {
         margin-top: 0;
     }
-    #contact {
-        top: 150px;
+    #contact{
+        postion: relative;
     }
 }
