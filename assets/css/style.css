@@ -248,22 +248,6 @@ body {
     padding: 10px;
 }
 
-@media(max-width:1350px) {
-    #nav br {
-        display: none;
-    }
-    #nav {
-        text-align: center;
-        margin-top: 0;
-    }
-    .box {
-        margin-top: 0;
-    }
-    #contact {
-        top: 150px;
-    }
-}
-
 @media(max-width:800px) {
     #nav {
         margin-top: 2%;
@@ -321,5 +305,21 @@ body {
     #domain,
     #domain>h2 {
         margin-left: 0;
+    }
+}
+
+@media(max-width:1350px) {
+    #nav br {
+        display: none;
+    }
+    #nav {
+        text-align: center;
+        margin-top: 0;
+    }
+    .box {
+        margin-top: 0;
+    }
+    #contact {
+        top: 150px;
     }
 }
