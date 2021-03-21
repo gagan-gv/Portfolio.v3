@@ -6,7 +6,8 @@
 body {
     background-image: url('../images/bg.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 20000%;
+    padding-bottom: 20px;
 }
 
 .loader_bg {
@@ -73,35 +74,36 @@ body {
 /* Track */
 
 ::-webkit-scrollbar-track {
-    background: #f0f0f0;
+    background: transparent;
 }
 
 
 /* Handle */
 
 ::-webkit-scrollbar-thumb {
-    background: #615f9f;
+    background: transparent;
 }
 
 .box {
     width: 1100px;
-    height: max-content;
+    height: auto;
     position: relative;
-    margin: 1% auto;
+    margin: -20% auto;
     background: whitesmoke;
     padding: 10px;
-    box-shadow: 25% rgba(50,50,50,0.5);
     border-radius: 25px;
+    box-shadow: 25% rgba(50, 50, 50, 0.4);
     overflow: hidden;
 }
 
 #nav {
-    text-align: center;
-    margin-top: 2%;
-    font-size: 65px;
+    text-align: left;
+    position: -webkit-sticky;
+    font-size: 50px;
+    margin-top: 5%;
     padding-left: 40px;
     padding-right: 40px;
-    margin-left: 50px;
+    margin-left: 20px;
     margin-right: 50px;
 }
 
@@ -166,6 +168,11 @@ body {
     margin-left: 50px;
 }
 
+#techStack {
+    position: relative;
+    top: 0px;
+}
+
 #skills {
     text-align: center;
     margin-left: 15%;
@@ -192,6 +199,8 @@ body {
 }
 
 #contact {
+    position: relative;
+    top: 325px;
     text-align: center;
     color: whitesmoke;
 }
@@ -217,22 +226,42 @@ body {
 
 #li:hover {
     color: #0072b1;
+    box-shadow: 0 0 0 5px #0072b1;
 }
 
 #gh:hover {
     color: #343434;
+    box-shadow: 0 0 0 5px #343434;
 }
 
 #fb:hover {
     color: #4267b2;
+    box-shadow: 0 0 0 5px #4267b2;
 }
 
 #ig:hover {
     color: #fbad50;
+    box-shadow: 0 0 0 5px #fbad50;
 }
 
 #cont>a {
     padding: 10px;
+}
+
+@media(max-width:1350px) {
+    #nav br {
+        display: none;
+    }
+    #nav {
+        text-align: center;
+        margin-top: 0;
+    }
+    .box {
+        margin-top: 0;
+    }
+    #contact {
+        top: 125px;
+    }
 }
 
 @media(max-width:800px) {
@@ -246,8 +275,7 @@ body {
     }
     .box {
         width: 350px;
-        height: max-content;
-        margin: 0 auto;
+        margin-top: 0;
         border-radius: 15px;
     }
     #img {
@@ -267,6 +295,9 @@ body {
     #skills {
         margin-left: 0;
         margin-right: 0;
+    }
+    #contact {
+        top: 75px;
     }
     #socials>a {
         margin-top: 10px;
