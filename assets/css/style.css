@@ -6,8 +6,7 @@
 body {
     background-image: url('../images/bg.jpg');
     background-repeat: no-repeat;
-    background-size: 20000%;
-    padding-bottom: 20px;
+    background-size: cover;
 }
 
 .loader_bg {
@@ -70,40 +69,25 @@ body {
     width: 0px;
 }
 
-
-/* Track */
-
-::-webkit-scrollbar-track {
-    background: transparent;
-}
-
-
-/* Handle */
-
-::-webkit-scrollbar-thumb {
-    background: transparent;
-}
-
 .box {
     width: 1100px;
-    height: auto;
+    height: max-content;
     position: relative;
-    margin: -20% auto;
+    margin: 1% auto;
     background: whitesmoke;
     padding: 10px;
+    box-shadow: 25% rgba(50, 50, 50, 0.5);
     border-radius: 25px;
-    box-shadow: 25% rgba(50, 50, 50, 0.4);
     overflow: hidden;
 }
 
 #nav {
-    text-align: left;
-    position: -webkit-sticky;
+    text-align: center;
+    margin-top: 2%;
     font-size: 50px;
-    margin-top: 5%;
     padding-left: 40px;
     padding-right: 40px;
-    margin-left: 20px;
+    margin-left: 50px;
     margin-right: 50px;
 }
 
@@ -119,7 +103,7 @@ body {
 .x:hover,
 .y:hover,
 .z:hover {
-    box-shadow: 10 10 10 10 rgba(50, 50, 50, 0.4);
+    box-shadow: 10px 10px 10px 10px rgba(50, 50, 50, 0.4);
 }
 
 #collapse {
@@ -199,8 +183,6 @@ body {
 }
 
 #contact {
-    position: relative;
-    top: 350px;
     text-align: center;
     color: whitesmoke;
 }
@@ -226,22 +208,22 @@ body {
 
 #li:hover {
     color: #0072b1;
-    box-shadow: 0 0 0 5px #0072b1;
+    box-shadow: 0 0 0 3px #0072b1;
 }
 
 #gh:hover {
     color: #343434;
-    box-shadow: 0 0 0 5px #343434;
+    box-shadow: 0 0 0 3px #343434;
 }
 
 #fb:hover {
     color: #4267b2;
-    box-shadow: 0 0 0 5px #4267b2;
+    box-shadow: 0 0 0 3px #4267b2;
 }
 
 #ig:hover {
     color: #fbad50;
-    box-shadow: 0 0 0 5px #fbad50;
+    box-shadow: 0 0 0 3px #fbad50;
 }
 
 #cont>a {
@@ -259,7 +241,8 @@ body {
     }
     .box {
         width: 350px;
-        margin-top: 0;
+        height: max-content;
+        margin: 0 auto;
         border-radius: 15px;
     }
     #img {
@@ -279,10 +262,6 @@ body {
     #skills {
         margin-left: 0;
         margin-right: 0;
-    }
-    #contact {
-        top: 100px;
-        position: relative;
     }
     #socials>a {
         margin-top: 10px;
@@ -306,28 +285,5 @@ body {
     #domain,
     #domain>h2 {
         margin-left: 0;
-    }
-}
-
-@media(max-width:1350px) {
-    #nav br {
-        display: none;
-    }
-    #nav {
-        text-align: center;
-        margin-top: 0;
-    }
-    .box {
-        margin-top: 0;
-    }
-    #contact{
-        top: 200px;
-        postion: relative;
-    }
-}
-
-@media(min-width:400px){
-    #contact{
-        top:125px;
     }
 }
