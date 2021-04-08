@@ -156,15 +156,6 @@ body {
     margin-right: 15%;
 }
 
-#domain {
-    align-items: center;
-    margin-left: 17%;
-}
-
-#domain>h2 {
-    margin-left: -17%;
-}
-
 #link,
 #link>a,
 #link>a:active,
@@ -274,9 +265,5 @@ body {
     }
     #ig {
         color: #fbad50;
-    }
-    #domain,
-    #domain>h2 {
-        margin-left: 0;
     }
 }
