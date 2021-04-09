@@ -212,15 +212,6 @@ body {
 
 #cont>a {
     padding: 10px;
-    margin-left: 25px;
-    margin-right: 25px;
-    border: 2px solid whitesmoke;
-    border-radius: 100%;
-}
-#cont>a:hover {
-    color: #454545;
-    background: #fff;
-    box-shadow: 0 0 0 3px #454545;
 }
 
 @media(max-width:800px) {
@@ -256,24 +247,11 @@ body {
         margin-left: 0;
         margin-right: 0;
     }
-    #socials>a, 
-    cont>a {
+    #socials>a{
         margin-top: 10px;
         margin-left: 10px;
         margin-right: 10px;
         background-color: whitesmoke;
         color: #343434;
-    }
-    #li {
-        color: #0072b1;
-    }
-    #gh {
-        color: #343434;
-    }
-    #fb {
-        color: #4267b2;
-    }
-    #ig {
-        color: #fbad50;
     }
 }
