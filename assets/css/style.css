@@ -218,9 +218,9 @@ body {
     border-radius: 100%;
 }
 #cont>a:hover {
-    color: #9f9f9f;
+    color: #454545;
     background: #fff;
-    box-shadow: 0 0 0 3px #9f9f9f;
+    box-shadow: 0 0 0 3px #454545;
 }
 
 @media(max-width:800px) {
@@ -256,7 +256,8 @@ body {
         margin-left: 0;
         margin-right: 0;
     }
-    #socials>a {
+    #socials>a, 
+    cont>a {
         margin-top: 10px;
         margin-left: 10px;
         margin-right: 10px;
