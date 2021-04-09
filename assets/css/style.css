@@ -212,6 +212,14 @@ body {
 
 #cont>a {
     padding: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border: 2px solid whitesmoke;
+    border-radius: 100%;
+}
+#cont>a:hover {
+    color: #9f9f9f;
+    box-shadow: 0 0 0 3px #f5f5f5;
 }
 
 @media(max-width:800px) {
