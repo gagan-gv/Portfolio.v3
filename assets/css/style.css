@@ -73,6 +73,29 @@ body {
     padding-top: 25px;
 }
 
+#nav {
+    text-align: center;
+    margin-top: 2%;
+    font-size: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+#nav>a:active,
+#nav>a:hover,
+#nav>a:visited,
+#nav>a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+#collapse {
+    visibility: hidden;
+    display: none;
+}
+
 .box {
     width: 1100px;
     height: max-content;
