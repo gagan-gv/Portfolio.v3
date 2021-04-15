@@ -63,21 +63,18 @@ body {
     }
 }
 
-
-/* Adjusting the width*/
-
 ::-webkit-scrollbar {
     width: 0px;
 }
 
 #nav {
-    text-align: center;
+    text-align: left;
     margin-top: 2%;
     font-size: 50px;
     padding-left: 10px;
     padding-right: 10px;
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-left: 50px;
+    position: fixed;
 }
 
 #nav>a:active,
@@ -88,9 +85,8 @@ body {
     text-decoration: none;
 }
 
-#collapse {
-    visibility: hidden;
-    display: none;
+.hero {
+    margin-top: 50px;
 }
 
 .box {
@@ -224,6 +220,13 @@ body {
         padding: 20px;
         font-size: 50px;
         text-align: center;
+        position: relative;
+    }
+    #nav>br {
+        display: none;
+    }
+    .hero {
+        margin-top: 0;
     }
     .box {
         width: 350px;
