@@ -77,10 +77,6 @@ body {
     padding-right: 10px;
     margin-left: 25px;
     margin-right: 25px;
-    -webkit-transition:all 0.5s ease;
-    -moz-transition:all 0.5s ease;
-    -o-transition:all 0.5s ease;
-    transition:all 0.5s ease;
 }
 
 #nav>a:active,
@@ -152,6 +148,10 @@ body {
 #techStack {
     position: relative;
     top: 0px;
+    -webkit-transition:all 0.5s ease;
+    -moz-transition:all 0.5s ease;
+    -o-transition:all 0.5s ease;
+    transition:all 0.5s ease;
 }
 
 #skills {
@@ -173,6 +173,10 @@ body {
 #contact {
     text-align: center;
     color: whitesmoke;
+    -webkit-transition:all 0.5s ease;
+    -moz-transition:all 0.5s ease;
+    -o-transition:all 0.5s ease;
+    transition:all 0.5s ease;
 }
 
 #socials>a,
