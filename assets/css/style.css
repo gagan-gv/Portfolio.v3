@@ -94,7 +94,7 @@ body {
     height: max-content;
     position: relative;
     margin: 1% auto;
-    background: whitesmoke;
+    background: #f0f0f0;
     padding: 10px;
     box-shadow: 25% rgba(50, 50, 50, 0.5);
     border-radius: 25px;
