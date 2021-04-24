@@ -212,7 +212,7 @@ body {
     padding: 10px;
 }
 
-@media(max-width:800px) {
+@media(max-width:1024px) {
     #nav {
         margin-top: 2%;
         margin-left: 0px;
