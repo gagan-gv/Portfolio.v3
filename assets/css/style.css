@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
+    list-style: none;
 }
 
 body {
@@ -69,7 +70,6 @@ body {
 
 #nav {
     text-align: left;
-    margin-top: 2%;
     font-size: 50px;
     padding-left: 10px;
     padding-right: 10px;
@@ -77,12 +77,31 @@ body {
     position: fixed;
 }
 
-#nav>a:active,
-#nav>a:hover,
-#nav>a:visited,
-#nav>a {
+#nav>ul>li>a:active,
+#nav>ul>li>a:hover,
+#nav>ul>li>a:visited,
+#nav>ul>li>a,
+#nav>label>a {
     color: whitesmoke;
     text-decoration: none;
+}
+
+#collapse {
+    visibility: collapse;
+}
+
+.checkbtn {
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .hero {
@@ -214,19 +233,47 @@ body {
 
 @media(max-width:1024px) {
     #nav {
-        margin-top: 2%;
+        margin-top: 0;
         margin-left: 0px;
         margin-right: 0;
         padding: 20px;
-        font-size: 50px;
+        font-size: 30px;
         text-align: center;
-        position: relative;
+        position: fixed;
+        background: #9966cb;
+        height: 70px;
+        width: 100%;
+        z-index: 9999;
+        top: 0;
     }
-    #nav>br {
-        display: none;
+    #nav>ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: #9966cb;
+        text-align: left;
+        right: -110%;
+        transition: all 0.5s ease;
+        margin: 50px 0;
+        line-height: 110px;
+        font-size: 40px;
+        padding-left: 50px;
+    }
+    #check:checked~ul {
+        right: -70%;
+    }
+    #collapse {
+        visibility: visible;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .checkbtn {
+        display: block;
+        float: right;
+        line-height: 10%;
     }
     .hero {
-        margin-top: 0;
+        margin-top: 80px;
+        padding: 0;
     }
     .box {
         width: 350px;
