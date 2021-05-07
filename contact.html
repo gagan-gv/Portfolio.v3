@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gagan Chordia - Contact</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/icon.png">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <!--Nav Starts-->
+    <nav id="nav">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <a class="fa fa-bars"></a>
+        </label>
+        <ul id="navList">
+            <li>
+                <a href="index.html" class="fa fa-user w"> <span id="collapse"></span></a>
+            </li>
+            <li>
+                <a href="index.html#techStack" class="fa fa-cogs x"> <span id="collapse"></span></a>
+            </li>
+            <li>
+                <a href="#" class="fa fa-address-book y"> <span id="collapse"></span></a>
+            </li>
+            <li>
+                <a href="./assets/Resume.pdf" target="_blank" download="Gagan Chordia - Resume" class="fa fa-download z"> <span id="collapse"></span></a>
+            </li>
+        </ul>
+    </nav>
+    <!--Nav Ends-->
+    <div class="hero1">
+        <div class="box1" id="fg1">
+            <form id="contact-form">
+                <input type="text" id="name" placeholder="Name" required/>
+                <br/>
+                <textarea id="msg" cols="40" rows="10" placeholder="Your Message" required></textarea>
+                <br/>
+                <input type="submit" value="Send" />
+            </form>
+            <div id="orContact">
+                <p>Or</p>
+                <p>Drop a message on my socials</p>
+                <p id="socials1">
+                    <a href="https://www.linkedin.com/in/gagan-chordia/" target="_blank" rel="noopener noreferrer" class="fa fa-linkedin" id="li"></a>
+                    <a href="https://github.com/gagan-gv" target="_blank" rel="noopener noreferrer" class="fa fa-github" id="gh"></a>
+                    <a href="https://www.facebook.com/gv.chordia/" target="_blank" rel="noopener noreferrer" class="fa fa-facebook-square" id="fb"></a>
+                    <a href="https://www.instagram.com/gagan__gv/" target="_blank" rel="noopener noreferrer" class="fa fa-instagram" id="ig"></a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./assets/js/contact.js"></script>
+</body>
+
+</html>
