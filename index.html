@@ -48,7 +48,7 @@
                 <a href="#techStack" class="fa fa-cogs x"> <span id="collapse"></span></a>
             </li>
             <li>
-                <a href="contact.html" class="fa fa-address-book y"> <span id="collapse"></span></a>
+                <a href="#contact-form" class="fa fa-address-book y"> <span id="collapse"></span></a>
             </li>
             <li>
                 <a href="./assets/Resume.pdf" target="_blank" download="Gagan Chordia - Resume" class="fa fa-download z"> <span id="collapse"></span></a>
@@ -259,23 +259,29 @@
                 <!--Proj Ends-->
             </div>
             <!--TechStack Ends-->
+            <form id="contact-form" method="POST">
+                <input type="text" id="name" placeholder="Name" name="name" required/>
+                <br/>
+                <input type="email" id="email" placeholder="Email" name="email" required/>
+                <br/>
+                <input type="text" id="subject" placeholder="Subject" name="subject" required/>
+                <br/>
+                <textarea id="msg" cols="40" rows="10" placeholder="Your Message" name="msg" required></textarea>
+                <br/>
+                <input type="submit" value="Send" />
+            </form>
+            <div id="orContact">
+                <p>Or</p>
+                <p>Drop a message on my socials</p>
+                <p id="socials1">
+                    <a href="https://www.linkedin.com/in/gagan-chordia/" target="_blank" rel="noopener noreferrer" class="fa fa-linkedin" id="li"></a>
+                    <a href="https://github.com/gagan-gv" target="_blank" rel="noopener noreferrer" class="fa fa-github" id="gh"></a>
+                    <a href="https://www.facebook.com/gv.chordia/" target="_blank" rel="noopener noreferrer" class="fa fa-facebook-square" id="fb"></a>
+                    <a href="https://www.instagram.com/gagan__gv/" target="_blank" rel="noopener noreferrer" class="fa fa-instagram" id="ig"></a>
+                </p>
+            </div>
         </div>
     </div>
-    <!--Contact-->
-    <footer id="contact">
-        <p id="socials">
-            <a href="https://www.linkedin.com/in/gagan-chordia/" target="_blank" rel="noopener noreferrer" class="fa fa-linkedin" id="li"></a>
-            <a href="https://github.com/gagan-gv" target="_blank" rel="noopener noreferrer" class="fa fa-github" id="gh"></a>
-            <a href="https://www.facebook.com/gv.chordia/" target="_blank" rel="noopener noreferrer" class="fa fa-facebook-square" id="fb"></a>
-            <a href="https://www.instagram.com/gagan__gv/" target="_blank" rel="noopener noreferrer" class="fa fa-instagram" id="ig"></a>
-        </p>
-        <h2>Get in Touch</h2>
-        <p id="cont">
-            <a href="mailto:chordiagagan@gmail.com" class="fa fa-envelope"></a>
-            <a href="tel:+918838147893" class="fa fa-phone"></a>
-        </p>
-    </footer>
-    <!--Contact Ends-->
     <script src="./assets/js/main.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 

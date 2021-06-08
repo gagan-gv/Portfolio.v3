@@ -182,28 +182,68 @@ body {
     color: #615095;
 }
 
+input[type=text],
+input[type=email],
+textarea {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=text]:hover,
+input[type=email]:hover,
+textarea:hover {
+    border: #000 2px solid;
+}
+
+input[type=submit] {
+    background: linear-gradient(to right, #9966cb, #a3a2db);
+    color: #fff;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 18%;
+    font-size: 20px;
+}
+
+#orContact {
+    position: absolute;
+    margin-left: 55%;
+    top: 85%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+
 #contact {
     text-align: center;
     color: whitesmoke;
 }
 
-#socials>a,
-#cont>a {
+#socials1>a {
     color: whitesmoke;
     font-size: 25px;
     text-decoration: none;
-}
-
-#socials>a {
     padding: 10px;
     margin-left: 25px;
     margin-right: 25px;
     border: 2px solid whitesmoke;
     border-radius: 100%;
+    background: linear-gradient(to right, #9966cb, #a3a2db);
 }
 
-#socials>a:hover {
-    background-color: whitesmoke;
+#socials1>a:hover {
+    background: whitesmoke;
 }
 
 #li:hover {
@@ -227,11 +267,7 @@ body {
     box-shadow: 0 0 0 3px #fbad50;
 }
 
-#cont>a {
-    padding: 10px;
-}
-
-@media(max-width:1024px) {
+@media(max-width:1439.99px) {
     #nav {
         margin-top: 0;
         margin-left: 0px;
@@ -251,16 +287,16 @@ body {
         width: 100%;
         height: 100vh;
         background-color: #9966cb;
-        text-align: left;
-        right: -110%;
+        text-align: right;
+        left: -110%;
         transition: all 0.5s ease;
         margin: 50px 0;
         line-height: 110px;
         font-size: 40px;
-        padding-left: 50px;
+        padding-right: 25px;
     }
     #check:checked~ul {
-        right: -70%;
+        left: -80%;
     }
     #collapse {
         visibility: visible;
@@ -268,18 +304,20 @@ body {
     }
     .checkbtn {
         display: block;
-        float: right;
+        float: left;
         line-height: 10%;
     }
     .hero {
         margin-top: 80px;
         padding: 0;
+        padding-bottom: 20px;
     }
     .box {
         width: 350px;
         height: max-content;
         margin: 0 auto;
         border-radius: 15px;
+        padding-bottom: 10px;
     }
     #img {
         text-align: center;
@@ -299,11 +337,24 @@ body {
         margin-left: 0;
         margin-right: 0;
     }
-    #socials>a {
+    input[type=text],
+    input[type=email],
+    textarea {
+        width: 100%;
+    }
+    input[type=submit] {
+        margin-left: 25%;
+    }
+    #orContact {
+        padding-top: 10px;
+        position: relative;
+        margin-left: 0;
+    }
+    #socials1>a {
         margin-top: 10px;
         margin-left: 10px;
         margin-right: 10px;
         background-color: whitesmoke;
-        color: #343434;
+        color: #f0f0f0;
     }
 }
