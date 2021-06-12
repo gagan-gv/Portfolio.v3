@@ -70,7 +70,7 @@ body {
 
 #nav {
     text-align: left;
-    font-size: 50px;
+    font-size: 40px;
     padding-left: 10px;
     padding-right: 10px;
     margin-left: 50px;
@@ -86,11 +86,16 @@ body {
     text-decoration: none;
 }
 
+#nav>ul>li>a {
+    padding-bottom: 40px;
+}
+
 #collapse {
     visibility: collapse;
 }
 
 .checkbtn {
+    padding: 0;
     display: none;
 }
 
@@ -229,16 +234,11 @@ input[type=submit] {
     font-size: 25px;
     text-decoration: none;
     padding: 10px;
-    margin-top: 10px;
     margin-left: 25px;
     margin-right: 25px;
     border: 2px solid whitesmoke;
     border-radius: 100%;
     background: linear-gradient(to right, #9966cb, #a3a2db);
-}
-
-#socials1>a:hover {
-    padding: 12px;
 }
 
 @media(max-width:1439.99px) {
@@ -266,7 +266,7 @@ input[type=submit] {
         left: -110%;
         transition: all 0.5s ease;
         margin: 50px 0;
-        line-height: 110px;
+        line-height: 90px;
         font-size: 40px;
         padding-right: 25px;
     }
