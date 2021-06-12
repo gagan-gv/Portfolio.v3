@@ -229,6 +229,7 @@ input[type=submit] {
     font-size: 25px;
     text-decoration: none;
     padding: 10px;
+    margin-top: 10px;
     margin-left: 25px;
     margin-right: 25px;
     border: 2px solid whitesmoke;
@@ -237,28 +238,7 @@ input[type=submit] {
 }
 
 #socials1>a:hover {
-    background: whitesmoke;
-}
-
-#li:hover {
-    color: #0072b1;
-    box-shadow: 0 0 0 3px #0072b1;
-    ;
-}
-
-#gh:hover {
-    color: #343434;
-    box-shadow: 0 0 0 3px #343434;
-}
-
-#fb:hover {
-    color: #4267b2;
-    box-shadow: 0 0 0 3px #4267b2;
-}
-
-#ig:hover {
-    color: #fbad50;
-    box-shadow: 0 0 0 3px #fbad50;
+    padding: 12px;
 }
 
 @media(max-width:1439.99px) {
@@ -347,7 +327,6 @@ input[type=submit] {
         margin-left: 0;
     }
     #socials1>a {
-        margin-top: 10px;
         margin-left: 10px;
         margin-right: 10px;
         background-color: whitesmoke;
