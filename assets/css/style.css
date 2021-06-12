@@ -270,7 +270,8 @@ input[type=submit] {
         font-size: 30px;
         text-align: center;
         position: fixed;
-        background: #9966cb;
+        background: linear-gradient(to right, #9966cb, #a3a2db);
+        border-bottom: 1px #f5f5f5 solid;
         height: 70px;
         width: 100%;
         z-index: 9999;
@@ -291,6 +292,7 @@ input[type=submit] {
     }
     #check:checked~ul {
         left: -80%;
+        border: 1px #f5f5f5 solid;
     }
     #collapse {
         visibility: visible;
