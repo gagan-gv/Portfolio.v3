@@ -6,7 +6,7 @@
 }
 
 body {
-    background: url('../images/bg.jpg');
+    background: linear-gradient(to right, #9966cb, #a3a2db);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -15,7 +15,7 @@ body {
     top: 0px;
     position: fixed;
     z-index: 99999;
-    background-image: url('../images/bg.jpg');
+    background: linear-gradient(to right, #9966cb, #a3a2db);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
