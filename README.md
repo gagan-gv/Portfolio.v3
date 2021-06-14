@@ -1,6 +1,6 @@
 # My Portfolio
 
-[Gagan Chordia](https://gagan-gv.github.io). Have a look!!
+[Gagan Chordia](https://gagan-gv.github.io){:target="_blank" rel="noopener"}. Have a look!!
 
 ### Here's a sample look of my portfolio's design🤗.
 - Mobile View
