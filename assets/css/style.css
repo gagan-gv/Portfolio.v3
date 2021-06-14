@@ -111,6 +111,7 @@ body {
 
 .hero {
     margin-top: 50px;
+    padding-bottom: 20px;
 }
 
 .box {
@@ -218,7 +219,7 @@ input[type=submit] {
 #orContact {
     position: absolute;
     margin-left: 55%;
-    top: 86%;
+    top: 87.5%;
     text-align: center;
     font-weight: bold;
     font-size: 25px;
@@ -231,11 +232,11 @@ input[type=submit] {
 
 #socials1>a {
     color: whitesmoke;
-    font-size: 25px;
+    font-size: 20px;
     text-decoration: none;
     padding: 10px;
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
     border: 2px solid whitesmoke;
     border-radius: 100%;
     background: linear-gradient(to right, #9966cb, #a3a2db);
@@ -286,7 +287,7 @@ input[type=submit] {
     .hero {
         margin-top: 80px;
         padding: 0;
-        padding-bottom: 20px;
+        padding-bottom: 30px;
     }
     .box {
         width: 350px;
@@ -296,7 +297,6 @@ input[type=submit] {
         padding-bottom: 10px;
     }
     #img {
-        text-align: center;
         padding: 0;
         margin: 0 0;
         top: 0;
@@ -319,7 +319,7 @@ input[type=submit] {
         width: 100%;
     }
     input[type=submit] {
-        margin-left: 25%;
+        margin-left: 27.5%;
     }
     #orContact {
         padding-top: 10px;
@@ -327,8 +327,8 @@ input[type=submit] {
         margin-left: 0;
     }
     #socials1>a {
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
         background-color: whitesmoke;
         color: #f0f0f0;
     }
