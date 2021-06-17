@@ -70,7 +70,7 @@ body {
 
 #nav {
     text-align: left;
-    font-size: 40px;
+    font-size: 45px;
     padding-left: 10px;
     padding-right: 10px;
     margin-left: 50px;
@@ -188,46 +188,11 @@ body {
     color: #615095;
 }
 
-input[type=text],
-input[type=email],
-textarea {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    padding: 12px;
-    border: 1px solid #000;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-}
-
-input[type=submit] {
-    background: linear-gradient(to right, #9966cb, #a3a2db);
-    color: #fff;
-    padding: 10px 50px;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    text-align: center;
-    margin-left: 18%;
-    font-size: 20px;
-}
-
-#orContact {
-    position: absolute;
-    margin-left: 55%;
-    top: 87.5%;
+#Contact {
     text-align: center;
     font-weight: bold;
     font-size: 25px;
-}
-
-#contact {
-    text-align: center;
-    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #socials1>a {
@@ -313,22 +278,14 @@ input[type=submit] {
         margin-left: 0;
         margin-right: 0;
     }
-    input[type=text],
-    input[type=email],
-    textarea {
-        width: 100%;
-    }
-    input[type=submit] {
-        margin-left: 27.5%;
-    }
-    #orContact {
+    #Contact {
         padding-top: 10px;
         position: relative;
         margin-left: 0;
     }
     #socials1>a {
-        margin-left: 5px;
-        margin-right: 5px;
+        margin-left: 10px;
+        margin-right: 10px;
         background-color: whitesmoke;
         color: #f0f0f0;
     }
