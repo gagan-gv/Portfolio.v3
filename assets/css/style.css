@@ -207,7 +207,7 @@ body {
     background: linear-gradient(to right, #9966cb, #a3a2db);
 }
 
-@media(max-width:1439.99px) {
+@media(max-width:1199px) {
     #nav {
         margin-top: 0;
         margin-left: 0px;
@@ -237,7 +237,7 @@ body {
         padding-right: 25px;
     }
     #check:checked~ul {
-        left: -80%;
+        left: -92.5%;
         border: 1px #f5f5f5 solid;
     }
     #collapse {
@@ -255,7 +255,7 @@ body {
         padding-bottom: 30px;
     }
     .box {
-        width: 350px;
+        width: 1000px;
         height: max-content;
         margin: 0 auto;
         border-radius: 15px;
@@ -265,7 +265,7 @@ body {
         padding: 0;
         margin: 0 0;
         top: 0;
-        right: 30px;
+        left: 225px;
     }
     #heads,
     #paras {
@@ -288,5 +288,32 @@ body {
         margin-right: 10px;
         background-color: whitesmoke;
         color: #f0f0f0;
+    }
+}
+
+@media(max-width:991px) {
+    .box {
+        width: 750px;
+    }
+    #img {
+        left: -175px;
+    }
+    #align {
+        margin-left: 235px;
+    }
+}
+
+@media(max-width:767px) {
+    .box {
+        width: 350px;
+    }
+    #img {
+        left: -35px;
+    }
+    #align {
+        margin-left: 10px;
+    }
+    #check:checked~ul {
+        left: -80%;
     }
 }
