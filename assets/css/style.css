@@ -75,6 +75,7 @@ body {
     padding-right: 10px;
     margin-left: 50px;
     position: fixed;
+    margin-top: 50px;
 }
 
 #nav>ul>li>a:active,
