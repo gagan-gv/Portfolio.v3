@@ -87,8 +87,13 @@ body {
     text-decoration: none;
 }
 
-#nav>ul>li>a {
+#nav>ul>li>a>abbr>i {
     padding-bottom: 40px;
+    cursor: pointer;
+}
+
+#nav>ul>li>a>abbr:hover {
+    cursor: pointer;
 }
 
 #collapse {
