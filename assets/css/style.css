@@ -274,19 +274,20 @@ body {
     }
     #me{
         margin-left: 0;
-        width: 310px;
-        height: 310px;
+        width: 300px;
+        height: 300px;
         padding: 0;
     }
     #img {
+        position: relative;
         padding: 0;
         margin: 0;
-        top: -25px;
-        left: 255px;
+        top: -35px;
+        left: 300px;
     }
     #heads,
     #paras {
-        top: -50px;
+        top: -75px;
         margin: 0;
     }
     #align {
