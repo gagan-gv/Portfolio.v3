@@ -290,6 +290,14 @@ body {
         top: -75px;
         margin: 0;
     }
+    #edu, 
+    #experience, 
+    #skills, 
+    #domain, 
+    #project{
+        position: relative;
+        top: -75px;
+    }
     #align {
         margin-left: 10px;
     }
