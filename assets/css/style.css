@@ -267,7 +267,7 @@ body {
     }
     .box {
         width: 1000px;
-        height: min-content;
+        height: 2750px;
         margin: 0 auto;
         border-radius: 15px;
         padding-bottom: 10px;
@@ -322,6 +322,7 @@ body {
 @media(max-width:991px) {
     .box {
         width: 750px;
+        height: 4800px;
     }
     #img {
         left: -175px;
@@ -334,6 +335,7 @@ body {
 @media(max-width:767px) {
     .box {
         width: 350px;
+        height: 5450px;
     }
     #img {
         left: -35px;
