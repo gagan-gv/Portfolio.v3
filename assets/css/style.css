@@ -267,7 +267,7 @@ body {
     }
     .box {
         width: 1000px;
-        height: max-content;
+        height: min-content;
         margin: 0 auto;
         border-radius: 15px;
         padding-bottom: 10px;
@@ -294,7 +294,8 @@ body {
     #experience, 
     #skills, 
     #domain, 
-    #proj{
+    #proj,
+    #Contact{
         position: relative;
         top: -75px;
     }
@@ -306,7 +307,7 @@ body {
         margin-right: 0;
     }
     #Contact {
-        padding-top: 10px;
+        padding-top: 20px;
         position: relative;
         margin-left: 0;
     }
