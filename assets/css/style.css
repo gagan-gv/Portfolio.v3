@@ -291,22 +291,13 @@ body {
         position: relative;
         padding: 0;
         margin: 0;
-        top: -35px;
+        top: -20px;
         left: 300px;
     }
     #heads,
     #paras {
-        top: -75px;
+        top: -35px;
         margin: 0;
-    }
-    #edu, 
-    #experience, 
-    #skills, 
-    #domain, 
-    #proj,
-    #Contact{
-        position: relative;
-        top: -75px;
     }
     #align {
         margin-left: 10px;
@@ -331,7 +322,6 @@ body {
 @media(max-width:991px) {
     .box {
         width: 750px;
-        height: 5050px;
     }
     #img {
         left: -175px;
@@ -344,7 +334,6 @@ body {
 @media(max-width:767px) {
     .box {
         width: 350px;
-        height: 5700px;
     }
     #img {
         left: -35px;
